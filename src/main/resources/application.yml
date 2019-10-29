@@ -1,0 +1,13 @@
+###项目的端口号
+server:
+  port: 8000
+###服务别名----服务注册到注册中心名称 
+spring:
+  application:
+    name: app-fp-BusHost
+    
+# 配置日志
+logging:
+  level:
+    com.fp: debug
+  file: ./log/${spring.application.name}/${spring.application.name}.log
